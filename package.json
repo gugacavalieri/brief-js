@@ -1,0 +1,40 @@
+{
+  "name": "brief-js",
+  "version": "1.0.0",
+  "description": "Brief is a validation tool that can help you assert your http web service migrations.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gugacavalieri/brief-js.git"
+  },
+  "keywords": [
+    "js",
+    "node",
+    "validation",
+    "api",
+    "migration"
+  ],
+  "author": "Gustavo Cavalieri",
+  "license": "ISC",
+  "bin": "./src/cli.js",
+  "bugs": {
+    "url": "https://github.com/gugacavalieri/brief-js/issues"
+  },
+  "homepage": "https://github.com/gugacavalieri/brief-js#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "json-diff": "^0.5.4",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
