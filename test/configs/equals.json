@@ -1,0 +1,12 @@
+{
+    "domains": {
+        "new": "https://jsonplaceholder.typicode.com",
+        "old": "https://jsonplaceholder.typicode.com"
+    },
+    "http": {
+        "timeout": 10000
+    },
+    "endpoints": [
+        { "method": "get", "url": "todos/1" }
+    ]
+}
