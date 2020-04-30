@@ -1,5 +1,5 @@
 {
-  "name": "brief-js",
+  "name": "@gugacavalieri/brief-js",
   "version": "0.0.1",
   "description": "Brief is a validation tool that can help you assert your http web service migrations.",
   "main": "cli.js",
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gugacavalieri/brief-js.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "js",
