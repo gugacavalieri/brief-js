@@ -1,6 +1,6 @@
 {
   "name": "brief-js",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Brief is a validation tool that can help you assert your http web service migrations.",
   "main": "cli.js",
   "scripts": {
