@@ -3,6 +3,7 @@ const axios = require('axios')
 const domains = { new: 'https://jsonplaceholder.typicode.com', old: 'https://jsonplaceholder.typicode.com' }
 const loggerMock = { info: jest.fn(), error: jest.fn() }
 const endpointHandler = new EndpointHandler(axios, domains, loggerMock)
+jest.setTimeout(30000)
 
 beforeEach(() => {
   loggerMock.info.mockClear()
