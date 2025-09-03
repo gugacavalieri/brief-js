@@ -1,7 +1,6 @@
 # brief-js [![Build Status](https://travis-ci.org/gugacavalieri/brief-js.svg?branch=master)](https://travis-ci.org/gugacavalieri/brief-js)
 Brief is a validation tool that can help you assert your http web service migrations.
 
-
 # How to use it
 
 1. First install it using `npm`:
